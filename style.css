@@ -1,0 +1,15 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+a {
+  color: #00ccff;
+}

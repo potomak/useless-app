@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+  <title>Useless app</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1><a id="click-me" href="#">Click me</a></h1>
+  <script>
+    window.onload = function() {
+      document.getElementById('click-me').onclick = function(e) {
+        e.preventDefault();
+        window.open('useless.html', 'useless', 'height=289,width=435');
+      };
+    };
+  </script>
+</body>
