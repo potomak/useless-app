@@ -1,0 +1,3 @@
+# Useless app
+
+Nothing to see [here](http://potomak.github.io/useless-app/)...
